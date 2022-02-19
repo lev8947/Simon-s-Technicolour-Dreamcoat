@@ -78,7 +78,7 @@ body {
    margin-top: -8vh;
   }
   .container {
-    margin-top: 30vh;
+    margin-top: -5vh;
   }
   
   body {
@@ -93,47 +93,3 @@ body {
     font-weight: 400;
   }
 
-   /* Flickering animation */
-   @keyframes flicker {
-      
-    0%, 18%, 22%, 25%, 53%, 57%, 100% {
-  
-        text-shadow:
-        0 0 4px #fff,
-        0 0 11px #fff,
-        0 0 19px #fff,
-        0 0 40px rgb(255, 0, 234),
-        0 0 80px rgb(255, 0, 234),
-        0 0 90px rgb(255, 0, 234),
-        0 0 100px rgb(255, 0, 234),
-        0 0 150px rgb(255, 0, 234);
-    
-    }
-    
-    20%, 24%, 55% {        
-        text-shadow: none;
-    }    
-  }
-  
-  
-  /* Additional styling */
-    
-  h3 {
-   font-size: 1.8rem;
-   margin-top: 55vh;
-  }
-  .container {
-    margin-top: 30vh;
-  }
-  
-  body {
-    font-size: 18px;
-    font-family: 'Orbitron', sans-serif;
-    background-color: #010a01;
-  }  
-  
-  h3  {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 400;
-  }
