@@ -9,7 +9,7 @@ header {
   display: flex;
   background-color: blueviolet;
   align-items: center;
-  background-image: url(../Simon-s-Technicolour-Dreamcoat/bricks.jpg);
+  background-image: url(../Simon-s-Technicolour-Dreamcoat/pics/bricks.jpg);
   background-size: cover;
 }
 
@@ -125,20 +125,19 @@ article div {
 div.gallery img {
   width: 100%;
   height: auto;
-  -webkit-filter: blur(4px);
+  -webkit-filter: blur(2px);
 }
 
 footer {
   display: flex;
   justify-content: center;
-  background-image: url(../Simon-s-Technicolour-Dreamcoat/bricks.jpg);
+  background-image: url(../Simon-s-Technicolour-Dreamcoat/pics/bricks.jpg);
   background-size: cover;
   padding: 2%;
   background-color: blueviolet;
   color: #fff;
-  margin-top: 50px;
+  margin-top: 10px;
 }
-
 
 @media screen and (max-width: 768px) {
   header {
@@ -152,7 +151,7 @@ footer {
 }
 .fa {
   padding: 10px;
-  font-size: 30px;
+  font-size: 40px;
   width: 35px;
   text-align: center;
   text-decoration: none;
