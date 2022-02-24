@@ -147,11 +147,6 @@ div.gallery img {
   flex-wrap: wrap;
   width: 100%;
   height: auto;
-  -webkit-filter: blur(10px);
-}
-
-div.gallery img:hover{
-  filter:blur(0)
 }
 
 footer {

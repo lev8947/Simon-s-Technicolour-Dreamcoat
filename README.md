@@ -4,8 +4,8 @@
 > **The second homework assignment for the UWA coding bootcamp was to create and style a website showcasing my personal portfolio as well as providing information about myself and contact links/links to previous works.**
 
 *Website initial view*
-<img src="./pics/web1.png">
-<img src="./pics/web2.png">
+<img src="./pics/finss.png">
+<img src="./pics/finss2.png">
 
 *Portfolio/About hover properties*
 <img src="./pics/portzoom.png">
