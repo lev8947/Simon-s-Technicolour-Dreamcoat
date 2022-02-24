@@ -22,13 +22,13 @@ header {
 
 .thumbnail:hover {
   position:relative;
-  top:-25px;
-  left:-35px;
-  width:500px;
+  top:-40px;
+  width:600px;
   height:auto;
   display:block;
-  z-index:2;
+  z-index: 1;
 }
+
 .sub-head {
   font-family: 'Orbitron', sans-serif;
   font-size: 150%;
@@ -43,6 +43,7 @@ header {
 h1 {
   font-family: 'Orbitron', sans-serif;
   font-size: 300%;
+  flex-wrap: wrap;
   animation: flicker 1.5s infinite alternate;
   color: rgb(1, 253, 253);
   float: left;
@@ -65,14 +66,14 @@ h1 {
 }
 
 h2 {
-  font-size: 250%;
-  font-family: 'Orbitron', sans-serif;
-  color: #ffffff;
+  color: aqua;
+  float: right;
 }
 
 h3 {
-  color: aqua;
-  float: right;
+  font-size: 250%;
+  font-family: 'Orbitron', sans-serif;
+  color: #ffffff;
 }
 
 nav ul {
@@ -111,7 +112,6 @@ main {
 
 section {
   border-bottom: 20px solid #000000;
-  border-top: 20px solid #000000;
   display: flex; 
   justify-content: space-around;
 }
@@ -147,12 +147,12 @@ div.gallery img {
   flex-wrap: wrap;
   width: 100%;
   height: auto;
-  -webkit-filter: blur(2px);
-}
-div.gallery img:hover {
-  filter:blur(0)
+  -webkit-filter: blur(10px);
 }
 
+div.gallery img:hover{
+  filter:blur(0)
+}
 
 footer {
   display: flex;
@@ -161,7 +161,6 @@ footer {
   background-size: cover;
   padding: 2%;
   background-color: blueviolet;
-  color: #fff;
   margin-top: 10px;
 }
 
@@ -171,9 +170,10 @@ footer {
   }
 
   main {
-    max-width: 1200px;
-    min-width: none;
+    max-width: 1000px;
+    min-width: 300px;
   }
+
 }
 .fa {
   padding: 10px;
@@ -186,6 +186,7 @@ footer {
 
 .fa:hover {
     opacity: 0.7;
+    color: hotpink;
 }
 
 .fa-facebook {
