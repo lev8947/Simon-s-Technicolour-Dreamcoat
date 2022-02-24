@@ -79,7 +79,7 @@ h3 {
 nav ul {
   display:inline;
   justify-content: space-between;
-  min-width: 600px;
+  min-width: 300px;
   text-align: center;
   font-size: larger;
   text-shadow:
@@ -185,8 +185,8 @@ footer {
 }
 
 .fa:hover {
-    opacity: 0.7;
-    color: hotpink;
+    
+    color: rgb(255, 0, 200);
 }
 
 .fa-facebook {
